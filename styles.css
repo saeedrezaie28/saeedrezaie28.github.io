@@ -1,0 +1,70 @@
+/* استایل‌های مرتبط با صفحه نمایش (screen) */
+@media screen {
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f0f0f0;
+    }
+
+    header {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 1em;
+    }
+
+    nav {
+        background-color: #333;
+        color: #fff;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        z-index: 1000;
+    }
+
+    nav ul {
+        list-style: none;
+        padding: 0;
+        text-align: center;
+    }
+
+    nav ul li {
+        display: inline-block;
+        margin-right: 20px;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: #fff;
+        font-weight: bold;
+    }
+
+    .content {
+        max-width: 800px;
+        margin: 80px auto 20px;
+        padding: 20px;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h2, h3 {
+        color: #333;
+    }
+}
+
+/* استایل‌های مرتبط با چاپ (print) */
+@media print {
+    body {
+        background-color: #fff;
+    }
+
+    header, nav {
+        display: none;
+    }
+
+    .content {
+        margin: 0;
+        box-shadow: none;
+    }
+}
