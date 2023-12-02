@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+.sticky-header {
+    background-color: #0077a3;
+    color: black;
+    padding: 15px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .sticky-header h1 {
+    margin: 0;
+  }
+  
+  #addSectionBtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #addSectionBtn:hover {
+    background-color: #45a049;
+  }
+  
+  .content {
+    margin: 100px;
+    padding: 20px;
+    position: relative;
+
+  }
+  
+  .dynamic-section {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px 0;
+  }
+  
+  .editBtn,
+  .deleteBtn {
+    margin-right: 5px;
+    background-color: #008CBA;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .editBtn:hover,
+  .deleteBtn:hover {
+    background-color: #0077a3;
+  }
+
+  #sectionCount {
+    font-size: 30px;
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #0077a3;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
